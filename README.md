@@ -1,7 +1,9 @@
 # init.nvim
 Local files
 
-# Lazy.nvim and Packer.nvim are both popular plugins for managing and loading plugins in Neovim. While they serve similar purposes, they have some differences in terms of features and design philosophy. Let's explore why one might choose Lazy.nvim over Packer.nvim:
+
+# Why Lazy instead of Packer?
+Lazy.nvim and Packer.nvim are both popular plugins for managing and loading plugins in Neovim. While they serve similar purposes, they have some differences in terms of features and design philosophy. Let's explore why one might choose Lazy.nvim over Packer.nvim:
 
 Simplicity and Speed:
 Lazy.nvim focuses on simplicity and performance. It is designed to be lightweight and efficient, with minimal overhead. It aims to provide a straightforward and fast plugin loading experience without unnecessary complexity. If you value simplicity and want a plugin manager that gets the job done quickly, Lazy.nvim may be a good choice.
