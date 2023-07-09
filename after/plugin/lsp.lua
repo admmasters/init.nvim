@@ -56,8 +56,8 @@ lsp.setup()
 
 local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 
+-- Automatically format on save
 local null_ls = require("null-ls")
-
 null_ls.setup({
     sources = {
         null_ls.builtins.formatting.stylua,
